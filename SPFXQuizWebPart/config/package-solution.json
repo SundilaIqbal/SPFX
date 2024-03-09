@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-quiz-app-client-side-solution",
+    "id": "82316f8b-a077-4fde-b57d-ed58a5a9461f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFXQuizApp description"
+      },
+      "longDescription": {
+        "default": "SPFXQuizApp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-quiz-app Feature",
+        "description": "The feature that activates elements of the spfx-quiz-app solution.",
+        "id": "f357a4bb-30f0-44c6-bf1d-f6d7e158d3b7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-quiz-app.sppkg"
+  }
+}
